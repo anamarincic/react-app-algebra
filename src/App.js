@@ -1,13 +1,6 @@
 import "./App.css";
-
-function Input({label, type}){
-  return (
-    <label>
-    <div className="label">{label}</div>
-    <input className="input" type ={type} />
-  </label>
-  );
-}
+import {Input} from "./components/Input";
+import Button from "./components/Button";
 
 function App() {
   return (
@@ -19,7 +12,8 @@ function App() {
         <Input label="Password" type="password" />
       </div>
       <div className="form-field">
-        <button className="button">Sign in</button>
+        <Button type="button">Sign in</Button>
+        <Button type="reset">Reset</Button>
       </div>
     </form>
   );

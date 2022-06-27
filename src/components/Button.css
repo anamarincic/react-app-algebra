@@ -1,0 +1,11 @@
+.button {
+  border: 1px solid black;
+  min-height: 32px;
+  background-color: black;
+  color: white;
+  padding: 0 8px;
+}
+
+.button + .button {
+  padding-left: 4px;
+}
