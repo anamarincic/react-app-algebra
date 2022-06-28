@@ -4,10 +4,11 @@ import Button from "./components/Button";
 import FormError from "./components/Errormessage";
 import FormMessage from "./components/Sucmessage";
 import User from "./components/User";
+import {Counter} from "./components/Counter";
 
 
 function App() {
-  const isSignedIn = true;
+  const isSignedIn = false;
 
  /**  let formMessageComponent = null;
   if(isSignedIn){
@@ -38,7 +39,8 @@ function App() {
       </div>
        <FormError visible={!isSignedIn} />
        <FormMessage visible={isSignedIn} /> 
-       <User src="./avatar.png" alt="userPicture">Ana</User>
+       {isSignedIn && <User src="./avatar.png" alt="userPicture">Ana</User>}
+       <Counter>0</Counter>
     </form>
   );
 }

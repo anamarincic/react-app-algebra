@@ -1,5 +1,7 @@
-.userPic {
-  border: circle;
+.avatar {
+  border-radius: 100%;
+  display: block;
+  border: 1px solid black;
   width: 100px;
   height: 100px;
 }
