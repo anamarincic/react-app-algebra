@@ -1,6 +1,6 @@
-import "./Input";
+import "./Input.css";
 
-function Input({label, type}){
+export function Input({label, type}){
     return (
       <label>
       <div className="label">{label}</div>
@@ -9,4 +9,3 @@ function Input({label, type}){
     );
   }
 
-export default Input;

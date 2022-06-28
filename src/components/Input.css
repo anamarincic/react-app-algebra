@@ -1,5 +1,11 @@
 .input {
   min-height: 32px;
-  border: 1px solid black;
+  border: 1px solid #003060;
   padding: 0 8px;
+  background-color: #68bbe3;
+}
+
+.label {
+  color: #003060;
+  margin-bottom: 8px;
 }

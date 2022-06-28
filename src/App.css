@@ -5,7 +5,3 @@
 .form-field + .form-field {
   margin-top: 16px;
 }
-
-.label {
-  margin-bottom: 8px;
-}
