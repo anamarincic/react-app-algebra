@@ -38,7 +38,7 @@ function App() {
       </div>
        <FormError visible={!isSignedIn} />
        <FormMessage visible={isSignedIn} /> 
-       <User src="../public/index.png" alt="pic">Ana</User>
+       <User src="./avatar.png" alt="userPicture">Ana</User>
     </form>
   );
 }
