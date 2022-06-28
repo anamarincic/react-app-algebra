@@ -3,6 +3,7 @@ import { Input } from "./components/Input";
 import Button from "./components/Button";
 import FormError from "./components/Errormessage";
 import FormMessage from "./components/Sucmessage";
+import User from "./components/User";
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
       </div>
        <FormError visible={!isSignedIn} />
        <FormMessage visible={isSignedIn} /> 
+       <User src="../public/index.png" alt="pic">Ana</User>
     </form>
   );
 }
