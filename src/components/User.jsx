@@ -1,11 +1,11 @@
-import {Avatar} from "./Avatar";
 import "./User.css";
+import { Avatar } from "./Avatar";
 
-function User({src,alt, children}){
-    return <div className="user">
-        <Avatar src={src} alt={alt}/>
-        <h2>{children}</h2>
+export function User(props) {
+  return (
+    <div className="user">
+      <Avatar src={props.src} username={props.username} />
+      <div>{props.username}</div>
     </div>
+  );
 }
-
-export default User;
